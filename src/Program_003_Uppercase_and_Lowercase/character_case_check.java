@@ -11,5 +11,7 @@ public class character_case_check {
                 System.out.println("Character is in Lowercase: " + ch);
             }
 
+            char flipped = Character.toUpperCase(ch);
+            System.out.println("Flipped to Uppercase: "+flipped);
     }
 }
